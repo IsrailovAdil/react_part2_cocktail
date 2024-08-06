@@ -14,10 +14,12 @@ code {
 
 
 .block-cards{
-  margin: 50px 0;
+  margin: 50px 100px;
   display: grid;
-  grid-template-columns:1fr 1fr 1fr  ;
+  grid-template-columns:30% 30% 30%  ;
   gap: 16px;
+  justify-content: center;
+
 }
 
 .card{
@@ -72,6 +74,7 @@ code {
   transition: background-color 0.3s;
 }
 
+
 .card-img-top{
   border-radius: 8px;
 }
@@ -82,7 +85,7 @@ code {
 
 .container1 {
   width: 40%;
-  margin: 10px;
+  margin: 10px auto;
   padding: 10px ;
   display: flex;
   justify-content: end;
@@ -94,6 +97,15 @@ footer {
   font-size: 16px;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  align-items: flex-end;
 
 }
 
+
+.searchPage{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
