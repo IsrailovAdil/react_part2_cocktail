@@ -8,7 +8,7 @@ const Header = () => {
                     <div
                         className="d-flex justify-content-between ">
                         <a href="/" className="d-flex  align-items-center  mb-2 mb-lg-0 text-white text-decoration-none">
-                            <p className="fs-1">MealDB</p>
+                            <p className="fs-1">CocktailDB</p>
                         </a>
 
                         <ul className="nav col-6 col-lg-auto fs-5 mb-2  align-items-center justify-content-end  mb-md-0">
